@@ -57,7 +57,7 @@
           </div>
 
           <div class=" text-center mx-5">
-            <h1 class="m-0 site-logo"><a href="index.php">Me.</a></h1>
+            <h1 class="m-0 site-logo"><a href="index.php"><img class="img-fluid" src="images/logo.jpeg" width="120" height="120"></a></h1>
           </div>
 
           <div class="text-left">
@@ -90,8 +90,8 @@
             <div class="row">
               <div class="col-lg-6">
                 <h1 class="text-black">Winsway Heavy Transport Services</h1>
-                <p class="lead">We are LTL, FTL, EXPEDITE, 3PL, CROSSDOCKING, WAREHOUSING & STORAGE Based on Brampton, Ontario</p>
-                <p><a href="#portfolio-section" class="btn smoothscroll btn-primary">Portfolio</a></p>
+                <p class="lead">We are LTL, FTL, EXPEDITE, 3PL, CROSSDOCKING, WAREHOUSING & STORAGE Based  Brampton, Ontario</p>
+                <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contact Us</a></p>
 
               </div>
             </div>
@@ -100,7 +100,7 @@
         </div>
       </div>
 
-      <img src="images/truck.jpg" alt="Image" class="img-face" data-aos="fade" width="650" height="500" style="vertical-align:middle; border:5px solid black">
+      <img src="images/img1.png" alt="Image" class="img-face" data-aos="fade" width="800" height="500">
 
       
     </div>  
@@ -119,8 +119,8 @@
             <div class="service d-flex h-100">
               <div class="service-number mr-4"><span class="icon-style"></span></div>
               <div class="service-about">
-                <h3>Heavy Loads</h3>
-                <p>Loads considered heavy are shipped to varied areas of the country and across the border.</p>
+                <h3>Full Load(TL)</h3>
+                <p>Loads considered heavy are shipped to varied locations of the country and across the border.</p>
               </div>
             </div>
           </div>
@@ -129,8 +129,8 @@
             <div class="service d-flex h-100">
               <div class="service-number mr-4"><span class="icon-business_center"></span></div>
               <div class="service-about">
-                <h3>Light Loads</h3>
-                <p>Loads considered Light are shipped to varied areas of the country and across the border.</p>
+                <h3>Partial Loads(LTL)</h3>
+                <p>Loads are brought to the warehouse for better control on freight handling and shipped accordingly to save time.</p>
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@
               <div class="service-number mr-4"><span class="icon-desktop_windows"></span></div>
               <div class="service-about">
                 <h3>Flat Bed Services</h3>
-                <p>Highly experienced in providing flat bed services.</p>
+                <p>Coming soon...</p>
               </div>
             </div>
           </div>
@@ -200,9 +200,9 @@
         
         <div id="posts" class="row no-gutter">
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_2.jpg" class="item-wrap fancybox">
+            <a href="https://krfreightservices.com/">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_2.jpg">
+               <h1>K&R Freight Services</h1>
             </a>
           </div>
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
@@ -219,49 +219,7 @@
             </a>
           </div>
 
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-
-            <a href="images/post_5.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_5.jpg">
-            </a>
-
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_6.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_6.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_2.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_2.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_3.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_3.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_4.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_4.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_6.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_6.jpg">
-            </a>
-          </div>
+        
 
           
         </div>
@@ -280,8 +238,8 @@
         <div class="owl-carousel slide-one-item">
           <div class="slide">
             <blockquote>
-              <p>Highly Specialized and trained drivers.</p>
-              <p><cite>&mdash; xyz.</cite></p>
+              <p>Specializing in Montreal to GTA Lanes</p>
+              <p><cite>&mdash; Clients </cite></p>
             </blockquote>
           </div>
           <div class="slide">
@@ -370,32 +328,32 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <h3 class="footer-title">Address</h3>
-            <p><span class="d-inline-block d-md-block">XyZ company,</span> Brampton,Ontario, Canada</p>
+            <p><span class="d-inline-block d-md-block">Winsway Transport</span> Brampton ON</p>
           </div>
           <div class="col-md-5 mx-auto">
             <div class="row">
               <div class="col-lg-4">
                 <h3 class="footer-title">Services</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">Web App</a></li>
-                  <li><a href="#">Graphic</a></li>
-                  <li><a href="#">Branding</a></li>
+                  <li><a href="#">Full Load(TL)</a></li>
+                  <li><a href="#">Partial Loads(LTL)</a></li>
+                  <li><a href="#">Flat Bed Services</a></li>
                 </ul>
               </div>
               <div class="col-lg-4">
                 <h3 class="footer-title">Resources</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">Web App</a></li>
-                  <li><a href="#">Graphic</a></li>
-                  <li><a href="#">Branding</a></li>
+                  <li><a href="#">Full Load(TL)</a></li>
+                  <li><a href="#">Partial Loads(LTL)</a></li>
+                  <li><a href="#">Flat Bed Services</a></li>
                 </ul>
               </div>
               <div class="col-lg-4">
                 <h3 class="footer-title">Links</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">Web App</a></li>
-                  <li><a href="#">Graphic</a></li>
-                  <li><a href="#">Branding</a></li>
+                  <li><a href="#">Full Load(TL)</a></li>
+                  <li><a href="#">Partial Loads(LTL)</a></li>
+                  <li><a href="#">Flat Bed Services</a></li>
                 </ul>
               </div>
             </div>
