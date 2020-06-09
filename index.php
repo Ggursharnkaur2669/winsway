@@ -89,8 +89,8 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-6">
-                <h1 class="text-black">Winsway Heavy Transport Services</h1>
-                <p class="lead">We are LTL, FTL, EXPEDITE, 3PL, CROSSDOCKING, WAREHOUSING & STORAGE Based  Brampton, Ontario</p>
+                <h1 class="text-black">Winsway Transport Ltd.</h1>
+                <p class="lead">The Right way to Ship.!!!</p>
                 <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contact Us</a></p>
 
               </div>
@@ -150,7 +150,7 @@
               <div class="service-number mr-4"><span class="icon-layers"></span></div>
               <div class="service-about">
                 <h3>Packinging &amp; Repackaging </h3>
-                <p>We exclusively provide packaging and repackaging services.</p>
+                <p>Coming Soon.....</p>
               </div>
             </div>
           </div>
@@ -171,12 +171,32 @@
             </div>
           </div>
           <div class="col-lg-4 order-2 order-lg-1">
-            <p>We are experienced in highly effective services of loading, unloading.</p>
-            <p>Hassle free services under one roof. </p>
+            <p style="text-align: justify;">Established in 2013. We are a transportation solution company based out of Brampton. We take great pride in our ways of customer service and in our ability to form solutions that best serve our customer's needs.</p>
+            <p>We Provide services such as:
+              <div class="row">
+              <ul class="col-sm-6"><li>LTL</li>
+                <li>TL</li>
+                <li>Temperature Control</li>
+                <li>Dryage</li>
+                <li>Dock to dock</li>
+                
+              </ul>
+              <ul class="col-sm-6">
+               
+                <li>Residential deliveries</li>
+              <li>Furniture and appliances</li>
+            <li>Lumper</li></ul>
+            </div> </p>
           </div>
           <div class="col-lg-4 order-3 order-lg-3">
-            <p>Customer convenience is our main motto. Our drivers are highly professional in delivery across the borders.</p>
-            <p>Tracked record of each and every delivery without any fail.</p>
+            <p>Coming soon:
+              <ul>
+                <li>Flatbed</li>
+                <li>Moffet</li>
+                <li>Cross border</li>
+              </ul>
+            </p>
+            <p style="text-align: justify;">Our staff is trained to bring out the solutions that best suit the needs of our customers.</p>
             <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contact Me</a></p>
           </div>
           
@@ -198,28 +218,14 @@
         </div>
 
         
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="https://krfreightservices.com/">
-              <span class="icon-search2"></span>
-               <h1>K&R Freight Services</h1>
-            </a>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_3.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_3.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_4.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_4.jpg">
-            </a>
-          </div>
-
         
+        <p class="lead">We are partnered with companies that have the same energy as us. Who are willing to go above and beyond for the needs of their customers. Our partnership is dedicated to bringing out the most cost-effective and safest method of delivering goods to their destinations.</p>
+        <ul style="list-style-type: circle">
+          <li>Freightastic Solutions</li>
+          <li>Toteel Solutions</li>
+          <li>K & R Freight Services</li>
+        </ul>
+        <p class="lead">And growing...</p>
 
           
         </div>
@@ -285,25 +291,47 @@
             <h2 class="section-title text-center mb-5">Contact Form</h2>
           </div>
         </div>
-        <form action="#" class="form">
+        <?php
+        if(isset($_POST['submit'])){
+          $to="gursharansus@gmail.com";
+          
+          $Fname=$_POST['fname'];
+          $Lname=$_POST['lname'];
+          $from=$_POST['email'];
+          $subject =$Fname.''.$Lname;
+          $Message=$_POST['message'];
+          
+
+          $headers="From:" .$from;
+          mail($to,$Message,$subject,$headers);
+          echo "Mail sent. Thankyou";
+        }
+        
+
+
+
+
+        
+        ?>
+        <form action="index.php" class="form" method="POST">
           <div class="row mb-4">
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="First name">
+              <input type="text" name="fname" class="form-control" placeholder="First name">
             </div>
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="Last name">
+              <input type="text" name="lname" class="form-control" placeholder="Last name">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="email" class="form-control" placeholder="Email address">
+              <input type="email" name="email" class="form-control" placeholder="Email address">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="text" class="form-control" placeholder="Subject of the message">
+              <input type="text" name="message" class="form-control" placeholder="Subject of the message">
             </div>
           </div>
 
@@ -315,7 +343,7 @@
 
           <div class="row">
             <div class="col-md-6">
-              <input type="submit" class="btn btn-primary" value="Send Message">
+              <input type="submit" name="submit" class="btn btn-primary" value="Send Message">
             </div>
           </div>
           
@@ -328,7 +356,7 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <h3 class="footer-title">Address</h3>
-            <p><span class="d-inline-block d-md-block">Winsway Transport</span> Brampton ON</p>
+            <p><span class="d-inline-block d-md-block">Winsway Transport Ltd.</span>19 Eva Road <span class="d-inline-block d-md-block">Etobicoke ON M9C 4W4</span>Cell No.: +1 (647) 867-6078 </p>
           </div>
           <div class="col-md-5 mx-auto">
             <div class="row">
